@@ -29,6 +29,7 @@ import isSelected from './element/isSelected.js'
 import moveTo from './element/moveTo.js'
 import nextElement from './element/nextElement.js'
 import parentElement from './element/parentElement.js'
+import pinchIn from './element/pinchIn.js'
 import previousElement from './element/previousElement.js'
 import react$$ from './element/react$$.js'
 import react$ from './element/react$.js'
@@ -52,7 +53,7 @@ export default {
     getAttribute, getCSSProperty, getComputedRole, getComputedLabel, getHTML, getLocation,
     getProperty, getSize, getTagName, getText, getValue, isClickable, isDisplayed,
     isDisplayedInViewport, isEnabled, isEqual, isExisting, isFocused, isSelected,
-    moveTo, nextElement, parentElement, previousElement, react$, react$$, saveScreenshot,
+    moveTo, nextElement, parentElement, pinchIn, previousElement, react$, react$$, saveScreenshot,
     scrollIntoView, selectByAttribute, selectByIndex, selectByVisibleText, setValue,
     shadow$, shadow$$, touchAction, waitForClickable, waitForDisplayed, waitForEnabled,
     waitForExist, waitUntil
